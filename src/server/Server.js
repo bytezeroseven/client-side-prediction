@@ -12,7 +12,7 @@ function Server() {
 
 	this.webSocketServer = null;
 
-	this.allowedHostnames = [ 'localhost' ];
+	this.allowedHostnames = [ 'localhost', 'prediction-side-client.herokuapp.com' ];
 
 	this.clients = [];
 
